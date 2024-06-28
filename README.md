@@ -1,25 +1,25 @@
-# Potato-Disease-Classification-using-CNN
-This project aims to classify diseases in potato plants using Convolutional Neural Networks (CNNs). The deep learning model is trained on a dataset of potato plant images to identify and categorize different diseases affecting the crops.
+Completed convolutional neural network (CNN) model to accurately detect and classify potato leaf diseases. Here are the key features, results, and an explanation of the project:
 
+Objective: To distinguish between early blight, late blight, and healthy potato leaves.
 
-# Overview
-Potato cultivation is a crucial aspect of agriculture, and diseases can significantly impact crop yield. This project leverages deep learning techniques, specifically CNNs, to automate the process of identifying and classifying diseases in potato plants. The trained model can be used as a tool for early detection and intervention, helping farmers make informed decisions about crop management.
+TensorFlow and Keras: These frameworks were essential for building and training the CNN model due to their robust libraries and ease of use for deep learning applications.
 
-# CNN Explained
-Convolutional Neural Networks (CNNs)
-Convolutional Neural Networks are a class of deep neural networks designed for processing grid-like data, such as images. CNNs consist of multiple layers, including convolutional layers, pooling layers, and fully connected layers. These networks are particularly effective in feature extraction and pattern recognition tasks.
+Data Augmentation: This technique was employed to increase the diversity of the training data by applying random transformations such as rotations, flips, and shifts. This helps the model generalize better and improves its performance on unseen data.
 
-# Dataset
-dowload (train): https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset
-The dataset used for this project comprises high-resolution images of healthy and diseased potato plants. The dataset is divided into training and testing sets to train and evaluate the CNN model.
+Flask: This lightweight web framework was used to create the user interface, making the model accessible and user-friendly for end-users.
 
+Convolutional Neural Network (CNN): The core of the model, CNNs are particularly effective for image classification tasks due to their ability to automatically and adaptively learn spatial hierarchies of features.
 
+Max Pooling: This layer was used to progressively reduce the spatial dimensions of the feature maps, which helps in reducing the computational complexity and prevents overfitting.
 
-# Results
-The trained model achieves an accuracy of 99% on the test set. Detailed evaluation metrics and visualizations can be found in the Results notebook.
+The model was trained on three distinct datasets, ensuring a diverse and comprehensive learning experience. early blight, late blight, and healthy leaves.
 
-# Contributing
-Feel free to contribute by opening issues, proposing enhancements, or submitting pull requests. Your feedback is highly appreciated.
+Accuracy: The model achieved an impressive accuracy of 0.9161, indicating that it correctly classified the images most of the time.
 
-# License
-This project is licensed under the MIT License.
+Loss: The training loss was recorded at 0.1961, showing that the model's predictions were close to the actual labels.
+
+Validation Accuracy: The model attained a validation accuracy of 0.9219, demonstrating its ability to generalize well to new, unseen data.
+
+Validation Loss: The validation loss was 0.1752, further indicating the model's effectiveness in learning the patterns in the data without overfitting
+
+This project application of machine learning and deep learning techniques in the field of agriculture, specifically for the detection of diseases in potato leaves. The use of CNNs, along with advanced frameworks like TensorFlow and Keras, and techniques such as data augmentation and max pooling, highlights the potential of AI in enhancing precision agriculture. The Flask-based user interface ensures that the model is accessible and easy to use for end-users.
